@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+
+clip-olympe.mp4
+**/.DS_Store
+app/static/resources/home/layout.xcf
+env
+*.xcf
+*.psd

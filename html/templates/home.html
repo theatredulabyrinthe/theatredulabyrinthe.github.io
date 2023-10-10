@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block banniere %}
+{% endblock %}
+
+{% block core %}
+<style>
+.sub-container, .container-affiche {
+    background-color: black;
+}
+
+.top-art {
+    display: none;
+}
+</style>
+
+<div id="home-carousel" class="carousel slide" data-ride="carousel" style="height: 100%;"> </div>
+
+{% block modal %}
+{% endblock %}
+
+{% endblock %}
+
+{% block sources %}
+<script src="static/js/home.js?version=28.09.2021"> </script>
+{% endblock %}

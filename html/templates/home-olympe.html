@@ -1,0 +1,47 @@
+{% extends 'home.html' %}
+
+{% block modal %}
+<!-- Button trigger modal -->
+<button style="display:none" type="button" id="bts-modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+</button>
+
+<!-- Modal -->
+<div class="modal fade show" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <!-- <div class="modal-content" style="background-color: #C43100; color: rgb(233, 233, 233);"> -->
+        <!-- <div class="modal-content" style="background-color: rgb(206,87,86); color: rgb(233, 233, 233);"> -->
+        <div class="modal-content" style="background-color: rgb(0,0,0); color: rgb(233, 233, 233);">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">
+            Reprise du Nouveau Spectacle en Janvier 2023
+                </h5>
+            </div>
+            <div class="modal-body" style="color:rgb(233, 233, 233);">
+                <div style="text-align:justify">
+            Le Théâtre du Labyrinthe vous invite, le week-end du
+            <b>26, 27</b> et <b>28 janvier</b>, pour une lecture historique
+            et musicale. <br><br>
+            <center>
+                <img width="100%" src="dist/affiches/autre/olympe2.png">
+            </center>
+            <br>
+            <i> <a style="color:rgb(254,187,36)" href="https://www.leoff-chartres.fr/programmation/liberte-egalite-olympe-de-gouges-40.html" target=_blank>
+                    Réservez dès maintenant sur le site du OFF</a> </i>
+                <!-- en cliquant sur la date souhaitée : </i>
+            <ul>
+                <li> <a style="color:rgb(254,187,36)" href="https://www.helloasso.com/associations/theatre-du-labyrinthe/evenements/liberte-egalite-olympe-de-gouges/" target=_blank>Samedi 7 mai</a>
+                <li> <a style="color:rgb(254,187,36)" href="https://www.helloasso.com/associations/theatre-du-labyrinthe/evenements/liberte-egalite-olympe-de-gouges-dimanche-8-mai" target=_blank>Dimanche 8 mai</a>
+            </ul> -->
+                </div>
+            </div>
+            <div class="modal-footer">
+        <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fermer</button>
+            <!-- <button type="button" class="btn btn-outline-warning" onclick="window.location.href='https://www.helloasso.com/associations/theatre-du-labyrinthe#evenements';" target="_blank">Réserver !</button> -->
+            <button type="button" class="btn btn-outline-warning" onclick="window.location.href='https://www.leoff-chartres.fr/programmation/liberte-egalite-olympe-de-gouges-40.html';" target="_blank">Réserver !</button>
+        </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

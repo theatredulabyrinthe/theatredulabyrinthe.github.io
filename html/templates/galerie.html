@@ -1,0 +1,125 @@
+{% extends 'layout.html' %}
+
+{% block banniere %}
+GALERIE
+{% endblock %}
+
+{% block core %}
+
+
+<style>
+    #galerie_big_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .galerie-item {
+        align-self: flex-start;
+        flex: 1 1 22%;
+        width: 200px;
+        height: 200px;
+        margin: 15px;
+    }
+
+    .galerie-overlay {
+        position: absolute;
+        opacity: 0;
+
+        color: #000000;
+        font-size: 13px;
+        font-weight: bold;
+        width: inherit;
+        height: inherit;
+
+    }
+
+    .galerie-item:hover .galerie-overlay {
+        opacity: 1;
+    }
+
+    .galerie-label {
+        color: #cc4f1e;
+        font-size: 16px;
+    }
+</style>
+
+<div class="content" style="padding-top: 4%;" id="galerie_big_container">
+    <!-- 
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Bleue Nuit.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div>
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Echec et Mat.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div>
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Green Paradise.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div>
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Les Caprices de Nina.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div>
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Oui Je Le Veux.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div>
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Planete Terra.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div>
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Rouge Cerise.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div>
+    <div class="galerie-item">
+        <div class="galerie-overlay">
+            Cliquez pour plus de photos
+        </div>
+        <img src="../static/resources/Galerie-Front/Un Pepin dans la paille.png" style="width: 150px;height: 150px;">
+        <div class="galerie-label">
+            Bleue Nuit
+        </div>
+    </div> -->
+</div>
+{% endblock %}
+
+{% block sources %}
+<script src="static/js/spectacles/galerie.js"> </script>
+{% endblock %}

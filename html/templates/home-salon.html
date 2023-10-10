@@ -1,0 +1,35 @@
+{% extends 'home.html' %}
+
+{% block modal %}
+<!-- Button trigger modal -->
+
+<button style="display:none" type="button" id="bts-modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+</button>
+
+<!-- Modal -->
+<div class="modal fade show" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">
+                    Infos rentrée 2023-2024
+                </h5>
+            </div>
+            <div class="modal-body" style="color:black">
+                <span class="modal-section"> Salon des Associations </span> <br>
+                Le Théâtre du Labyrinthe vous souhaite une bonne rentrée à toutes et à tous,
+                et aura le plaisir de vous accueillir ce week-end au <span class="bold-red"> STAND 144 </span> du salon des associations.
+                <ul>
+                    <li> Samedi 2 Septembre : 10h-19h </li>
+                    <li> Dimanche 3 Septembre : 11h-18h </li>
+                </ul>
+                <br>
+                <!-- Téléchargez aussi le <a class="the-red" href="dist/fichiers/flyer-2022.pdf" target="_blank">flyer</a> de rentrée ! -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

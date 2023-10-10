@@ -1,0 +1,84 @@
+{% extends 'home.html' %}
+
+{% block modal %}
+<!-- Button trigger modal -->
+
+<button style="display:none" type="button" id="bts-modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+</button>
+
+<!-- Modal -->
+<div class="modal fade show" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">
+                    Infos rentrée 2022
+                </h5>
+            </div>
+            <div class="modal-body" style="color:black">
+                <span class="modal-section"> Dates de rentrée : cours d'essai </span> <br>
+                <ul>
+                    <li>
+                        <span class="bold"> Lundi 5 Septembre </span>
+                        <ul>
+                            <li>
+                                <tt>Adultes : 20h30-22h30 </tt> <br>
+                                &#8618;
+                                <small style="font-style:italic">
+                                    (groupe du lundi et mardi)
+                                </small>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="bold"> Mardi 6 Septembre </span>
+                        <ul>
+                            <li> <tt>Ados Confirmés : 18h30-20h </tt> </li>
+                            <li> <tt>Adultes : (le lundi !) </tt> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="bold"> Mercredi 7 Septembre </span>
+                        <ul>
+                            <li> <tt>Enfants : 10h30-12h </tt> </li>
+                            <li> <tt>Ados : 14h-15h30 </tt> </li>
+                            <!-- <li>
+                                <tt>Adultes : 20h45-22h45 </tt> <br>
+                                &#8618;
+                                <small style="font-style:italic">
+                                    aura exceptionnellement lieu à 20h45, <br>
+                                    le reste de l'année tous les autres cours seront à 20h30
+                                </small>
+                            </li> -->
+                        </ul>
+
+                    </li>
+                </ul>
+
+                <div style="text-align:justify">
+                    <span class="modal-section"> Important </span> <br>
+                    Pour tous renseignements, merci de nous contacter au 06.20.66.49.76
+                    ou par mail (
+                    <a href="mailto:gwen.anglade@gmail.com" class="the-red">
+                        <span style="font-weight: bold;">
+                            gwen.anglade@gmail.com
+                        </span>
+                    </a>
+                    ). Merci de ne pas vous présenter au cours sans avoir eu au préalable un contact
+                    téléphonique ou électonique avec le professeur.
+                    <br>
+                    <br>
+                    Téléchargez aussi le <a class="the-red" href="dist/fichiers/flyer-2022.pdf" target="_blank">flyer</a> de rentrée !
+                    <!-- À bientôt et surtout n'oubliez pas vos
+                    <span class="bold-red">Pass Sanitaires</span>
+                    ou <span class="bold-red">Tests PCR</span>
+                    de <b>moins de 72h obligatoires</b> pour les ateliers ! -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Compris !</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

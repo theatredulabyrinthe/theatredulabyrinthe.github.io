@@ -1,0 +1,22 @@
+.alignleft {
+    float: left;
+    width: 33.33333%;
+    text-align: left;
+}
+
+.aligncenter {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+.alignright {
+    float: left;
+    width: 33.33333%;
+    text-align: right;
+}
+
+.mfooter {
+    color: rgb(173, 173, 173);
+    font-size: small;
+}
