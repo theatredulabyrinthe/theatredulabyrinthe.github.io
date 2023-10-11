@@ -25,56 +25,56 @@ const SPECTACLES = [
         'date': '2022',
         'src': 'rouge-cerise-2022.png',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'rouge-cerise-2022'
+        'link': 'rouge-cerise-2022.html'
     },
     {
         'name': 'Bleue Nuit',
         'date': '2018',
         'src': 'Bleue_Nuit_White.jpg',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'bleue-nuit'
+        'link': 'bleue-nuit.html'
     },
     {
         'name': 'Echec & Mat',
         'date': '2015',
         'src': 'Echec_Mat.jpg',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'echec-et-mat'
+        'link': 'echec-et-mat.html'
     },
     {
         'name': 'Green Paradise',
         'date': '2016',
         'src': 'Green_Paradise.jpg',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'green-paradise'
+        'link': 'green-paradise.html'
     },
     {
         'name': 'Les Caprices de Nina',
         'date': '2013',
         'src': 'Les_caprices_de_nina.jpg',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'les-caprices-de-nina'
+        'link': 'les-caprices-de-nina.html'
     },
     {
         'name': 'Oui je le veux',
         'date': '2019',
         'src': 'Oui_V2_WEB.jpg',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'oui-je-le-veux'
+        'link': 'oui-je-le-veux.html'
     },
     {
         'name': 'Rouge Cerise',
         'date': '2017',
         'src': 'Rouge_cerise.jpg',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'rouge-cerise'
+        'link': 'rouge-cerise.html'
     },
     {
         'name': 'Un Pépin dans la Paille',
         'date': '2014',
         'src': 'Un_pepin_dans_la_paille.jpg',
         'auth': 'Gwenaëlle Anglade',
-        'link': 'un-pepin-dans-la-paille'
+        'link': 'un-pepin-dans-la-paille.html'
     }
 ];
 
@@ -100,7 +100,7 @@ function loadSpectacle() {
         let br1 = document.createElement('br');
         let br2 = document.createElement('br');
         let btn = document.createElement('a');
-        btn.href = `${e['link']}.html`;
+        btn.href = `${e['link']}`;
 
 
         btn.classList.add('clk');
