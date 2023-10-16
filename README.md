@@ -6,10 +6,7 @@ Site internet de la compagnie du `Théâtre du labyrinthe`.
 # Utilisation local
 
 ```bash
-python3 -m venv env
-source env/bin/activate
-pip install python-lsp-server jinja2
-
+make env
 make clean
 make
 ```
