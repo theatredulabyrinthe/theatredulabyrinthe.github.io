@@ -13,7 +13,7 @@ body {
 
 .name {
     font-weight: bold;
-    color: rgb(126, 37, 7);
+    color: rgb(136, 47, 17);
 }
 
 .the-red {
@@ -33,6 +33,35 @@ body {
     margin-bottom: 3%;
 }
 
+.affiches_home {
+    padding-left: 4em;
+    padding-right: 4em;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.affiches_home img {
+    height: 400px;
+    width="100%";
+}
+
+.modal-content, .home {
+    background-color: #ddccbb;
+    color:#2C1607;
+}
+
+a:hover.resa_link {
+    background-color: #fbeeac;
+    text-decoration: none;
+}
+
+a.resa_link {
+    font-weight: bold;
+    color:#C35B38;
+}
+
+
 .main-container {
     width: 80%;
     margin-left: 10%;
@@ -42,7 +71,6 @@ body {
     margin-top: 3%;
     padding-bottom: 3%;
     background-color: rgb(233, 233, 233);
-    /* height: 800px;  */
 }
 
 .container-affiche {
