@@ -13,7 +13,7 @@ function loadGalerie(name, arr, cont) {
         let col = document.createElement('div');
         col.classList.add('column');
         for (const n of elt) {
-            const src = `dist/galerie/${name}/${n}.jpg`; //`../resources/articles/${n}.jpg`;
+            const src = `dist/galerie/${name}/${n}.avif`; //`../resources/articles/${n}.jpg`;
             const id = `modal_${n}`;
 
             let img = document.createElement('img');
