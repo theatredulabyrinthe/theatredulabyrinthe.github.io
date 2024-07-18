@@ -6,19 +6,30 @@ const ATELIERS = [
         'depart': '10h30',
         'fin': '12h',
         'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
-        'tarif': '260',
+        'tarif': '275',
         'date-rentree': '6 Septembre 2023',
         'img-src': 'dist/front/enfants.jpg'
     },
     {
-        'niveau': 'Ados',
+        'niveau': 'Ados 1',
         'scolaire': 'Collège',
         'jour': 'Mercredi',
         'depart': '14h',
         'fin': '15h30',
         'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
-        'tarif': '260',
-        'date-rentree': '6 Septembre 2023',
+        'tarif': '275',
+        'date-rentree': '11 Septembre 2024',
+        'img-src': 'dist/front/ado1.jpg'
+    },
+    {
+        'niveau': 'Ados 2',
+        'scolaire': 'Collège',
+        'jour': 'Mercredi',
+        'depart': '17h35',
+        'fin': '17h05',
+        'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
+        'tarif': '275',
+        'date-rentree': '11 Septembre 2024',
         'img-src': 'dist/front/ado1.jpg'
     },
     {
@@ -28,8 +39,8 @@ const ATELIERS = [
         'depart': '20h30',
         'fin': '22h30',
         'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
-        'tarif': '330',
-        'date-rentree': '6 Septembre 2023',
+        'tarif': '355',
+        'date-rentree': '11 Septembre 2024',
         'img-src': 'dist/front/master.jpg'
     },
     {
@@ -40,7 +51,7 @@ const ATELIERS = [
         'fin': '20h',
         'lieu': 'Maison pour tous de la Cité, 52 impasse Huysmans Rechèvres',
         'tarif': '270',
-        'date-rentree': '6 Septembre 2023',
+        'date-rentree': '10 Septembre 2024',
         'img-src': 'dist/front/conf.jpg'
     },
     {
@@ -50,8 +61,8 @@ const ATELIERS = [
         'depart': '20h30',
         'fin': '22h30',
         'lieu': 'Maison pour tous de la Cité, 52 impasse Huysmans Rechèvres',
-        'tarif': '330',
-        'date-rentree': '5 Septembre 2023',
+        'tarif': '355',
+        'date-rentree': '10 Septembre 2024',
         'img-src': 'dist/front/adultes2.jpg'
     }
 ];
